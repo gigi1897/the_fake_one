@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project is an enterely imaginated restaurant & bar reservation.
+This project is an entirely imaginated restaurant & bar reservation.
 
 ## Getting Started
 
