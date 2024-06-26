@@ -1,0 +1,8 @@
+.NavMenuText{
+    color: 	#1c1c84 ;
+    
+}
+
+.NavMenuText:hover{
+    text-decoration: underline;
+}
