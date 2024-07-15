@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import imageCocktail from '../../public/bg-contacts.jpg';
 
 export default function page() {
     return (
@@ -21,8 +20,10 @@ export default function page() {
                     1815, Clarens
                 </p>
                 <br />
-                <p>
-                    <Link href="https://maps.app.goo.gl/EXCvqEYBpweYuwsT8">Get directions</Link>
+                <p>                    
+                    <button className="bg-transparent hover:bg-black text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <Link href="https://maps.app.goo.gl/EXCvqEYBpweYuwsT8">Get directions</Link>
+                    </button>
                 </p>
                 <br />
                 <p>

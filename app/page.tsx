@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from './page.module.css';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,7 +8,8 @@ export default function Home() {
       <div className="flex place-content-center">
         <Image src="/Logo.png" alt="Logo" width={300} height={7} />
       </div>
-      <p className="text-center"> The faker street 45, 1815 Clarens<br /><br /></p>
+      <p className="text-center"> The faker street 45, 1815 Clarens<br /></p>
+      <p className="text-center"> Come to relax with a nice cocktail.<br /><br /></p>
       <ul className="flex place-content-center">
         <li className="mr-3">
           <a className={styles.NavMenuText} id="ceh" href="/contact">Contact & hours</a>
@@ -23,6 +25,11 @@ export default function Home() {
         </li>
         <li className="mr-3">
           <a className={styles.NavMenuText} id="cocktails" href="#">Cocktails</a>
+        </li>
+        <li>
+          <button className="pt-0 bg-transparent hover:bg-black text-blue-700 font-semibold hover:text-white py-2 px-4">
+            <Link href="/booking">Book a table</Link>
+          </button>
         </li>
       </ul>
       <br /><br />
